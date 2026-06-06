@@ -3,6 +3,14 @@ This repository contains a modular, control-oriented Python simulation framework
 
 Rather than relying on computationally heavy fluid dynamics, this codebase provides a lightweight numerical testing environment. It acts as a software-in-the-loop simulator to evaluate how closed-loop control algorithms and reactive path-planning logic handle high-clutter, narrow-passage marine environments like aquaculture pens and dense kelp forests.
 
+## Simulation Demo
+
+### Telemetry Dashboard
+![Telemetry Dashboard](./telemetry_dashboard.png)
+
+### Trajectory Animation
+![Mission Animation](./trajectory_animation.gif)
+
 ## Core Capabilities of the Simulator
 
 This software package is built to evaluate the unique physics of flapping-wing aquatic propulsion using classical control theory. It simulates a complete autonomous mission lifecycle:
@@ -110,11 +118,3 @@ control:
   v_target: 1.5         # Target cruise velocity (m/s)
   z_target: -5.0        # Target operating depth (m)
 ```
-
-## Example Simulation Output
-
-### Telemetry Dashboard
-![Telemetry Dashboard](./telemetry_dashboard.png)
-
-### Mission Animation
-![Mission Animation](./trajectory_animation.gif)
