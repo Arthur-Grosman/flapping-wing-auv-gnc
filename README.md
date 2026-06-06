@@ -5,11 +5,11 @@ Rather than relying on computationally heavy fluid dynamics, this codebase provi
 
 ## Simulation Demo
 
-### Telemetry Dashboard
-![Telemetry Dashboard](./telemetry_dashboard.png)
-
 ### Trajectory Animation
 ![Mission Animation](./trajectory_animation.gif)
+
+### Telemetry Dashboard
+![Telemetry Dashboard](./telemetry_dashboard.png)
 
 ## Core Capabilities of the Simulator
 
