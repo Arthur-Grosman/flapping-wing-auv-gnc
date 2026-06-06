@@ -1,0 +1,31 @@
+simulation:
+  dt: 0.05
+  max_time: 60.0
+
+vehicle:
+  mass: 5.0             # kg
+  k_f: 0.5              # Thrust coefficient
+  c_d: 1.2              # Quadratic drag coefficient
+  c_dz: 2.0             # Vertical drag coefficient
+  max_f: 5.0            # Max flapping frequency (Hz)
+  max_turn_rate: 1.0    # rad/s
+
+control:
+  v_target: 1.5         # Target forward velocity (m/s)
+  z_target: -5.0        # Target depth (m)
+  
+  # PID Depth
+  kp_z: 8.0
+  ki_z: 0.1
+  kd_z: 5.0
+  
+  # Velocity P-Control
+  kp_v: 2.0
+  
+  # Heading P-Control
+  kp_psi: 2.5
+
+guidance:
+  waypoint_radius: 1.0  # Acceptance radius for waypoints
+  apf_repulsive_gain: 3.0
+  apf_influence_radius: 4.0
