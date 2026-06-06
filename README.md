@@ -113,6 +113,8 @@ control:
 
 ## Example Simulation Output
 
-![Telemetry Dashboard](Assets/telemetry_dashboard.png)
+### Telemetry Dashboard
+![Telemetry Dashboard](./assets/telemetry_dashboard.png)
 
-![Mission Animation](Assets/trajectory_animation.gif)
+### Mission Animation
+![Mission Animation](./assets/trajectory_animation.gif)
